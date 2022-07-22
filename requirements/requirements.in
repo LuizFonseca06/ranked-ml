@@ -1,0 +1,9 @@
+jupyter
+SQLAlchemy
+pandas
+pip-tools
+black
+prettyconf
+flask
+Flask-SQLAlchemy
+matplotlib
