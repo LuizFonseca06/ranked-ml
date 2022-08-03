@@ -7,3 +7,4 @@ prettyconf
 flask
 Flask-SQLAlchemy
 matplotlib
+tqdm
