@@ -89,6 +89,8 @@ jinja2==3.1.2
     #   flask
     #   nbconvert
     #   notebook
+joblib==1.1.0
+    # via scikit-learn
 jsonschema==4.7.2
     # via nbformat
 jupyter==1.0.0
@@ -154,6 +156,8 @@ numpy==1.23.1
     # via
     #   matplotlib
     #   pandas
+    #   scikit-learn
+    #   scipy
 packaging==21.3
     # via
     #   build
@@ -228,6 +232,10 @@ qtconsole==5.3.1
     # via jupyter
 qtpy==2.1.0
     # via qtconsole
+scikit-learn==1.1.1
+    # via sklearn
+scipy==1.9.0
+    # via scikit-learn
 send2trash==1.8.0
     # via notebook
 six==1.16.0
@@ -235,6 +243,8 @@ six==1.16.0
     #   asttokens
     #   bleach
     #   python-dateutil
+sklearn==0.0
+    # via -r requirements/requirements.in
 soupsieve==2.3.2.post1
     # via beautifulsoup4
 sqlalchemy==1.4.39
@@ -245,6 +255,8 @@ stack-data==0.3.0
     # via ipython
 terminado==0.15.0
     # via notebook
+threadpoolctl==3.1.0
+    # via scikit-learn
 tinycss2==1.1.1
     # via nbconvert
 tomli==2.0.1

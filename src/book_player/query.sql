@@ -1,3 +1,4 @@
+-- create table  tb_book_players as
 with tb_lobby as (
 
     select *
@@ -177,7 +178,7 @@ select '{date}' as dtRef,
         t1.avgQtRoundsPlayed,
         t1.avgVlLevel,
         t1.avgQtSurvived,
-        coalesce(t1.avgQtTrade,0),
+        coalesce(t1.avgQtTrade,0) as avgQtTrade,
         t1.avgQtFlashAssist,
         t1.avgQtHitHeadshot,
         t1.avgQtHitChest,

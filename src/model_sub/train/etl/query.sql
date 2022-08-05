@@ -105,5 +105,5 @@ and t1.dtRef < t2.dtCreatedAt
 and t2.dtCreatedAt < date(t1.dtRef, '+15 day')
 
 where AssinaturaAtiva = 0
-and t1.dtRef < date('2022-02-01', '-15 day')
+and t1.dtRef < date('2022-02-11', '-15 day')
 ;
